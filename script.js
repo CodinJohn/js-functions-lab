@@ -158,7 +158,8 @@ Complete the exercise in the space below:
 */
 
 function calculateTip(billAmount, tipPercentage) {
-    return (billAmount % tipPercentage)
+    let tipAmount = (billAmount * (tipPercentage / 100));    
+        return tipAmount
 }
 
 console.log('Exercise 9 Result:', calculateTip(50, 20));
